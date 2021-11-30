@@ -14,16 +14,16 @@ int main(){
     cin >> x ;
     int i = 0 ;
     while(i < 10)
-            {
-                if(x <= gpa[i])
-                {
-                    cout << id[i] << " ";
-                    cout << name[i]<< " ";
-                    cout << gpa[i] <<endl;
-                    i++;
-                }else{
-                    i++;
-                }
-            }
+    {
+        if(x <= gpa[i])
+        {
+            cout << id[i] << " ";
+            cout << name[i]<< " ";
+            cout << gpa[i] <<endl;
+            i++;
+        }else{
+            i++;
+        }
+    }
     return 0;
 }

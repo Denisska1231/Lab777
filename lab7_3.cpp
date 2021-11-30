@@ -2,7 +2,7 @@
 
 using namespace std;
 
-double adiff(int a,int b){
+int adiff(int a,int b){
   if(a>=360 or a <= -360){
     a = a % 360;
   }
